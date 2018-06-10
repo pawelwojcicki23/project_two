@@ -1,0 +1,32 @@
+.bg2-image {
+    background-image: url("../images/cup.png");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg2 {
+    background-color: rgb(0, 196, 196);
+}
+
+.about {
+    width: 650px;
+    height: 400px;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.about > h2 {
+    font-family: $font-raleway;
+    font-weight: bold;
+    color: white;
+    font-size: 90px;
+    margin-bottom: 32px;
+}
+
+.about > p {
+    font-family: $font-raleway;
+    font-weight: lighter;
+    color: white;
+    font-size: 17px;
+}

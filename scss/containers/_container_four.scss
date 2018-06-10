@@ -1,0 +1,80 @@
+.bg4 {
+    background-color: rgb(255, 233, 47);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-bg4 {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+.text-bg4 > h2 {
+    font-family: $font-raleway;
+    font-weight: bold;
+    color: rgb(38, 38, 38);
+    font-size: 90px;
+    margin-bottom: 32px;
+    padding-top: 90px;
+}
+
+.text-bg4 > p {
+    font-family: $font-raleway;
+    font-weight: lighter;
+    color: rgb(38, 38, 38);
+    font-size: 17px;
+    margin-bottom: 48px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.berries {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    justify-content: space-between;
+}
+
+.peach {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 32px;
+}
+
+.shake {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 32px;
+}
+
+.granate {
+    padding-left: 49px;
+}
+
+img {
+    box-shadow: $shadow;
+}
+
+.button-view {
+    display: flex;
+    justify-content: center;
+}
+
+.viewmore {
+    font-family: $font-raleway;
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(85, 133, 162);
+    padding: 16px 24px;
+    border-style: none;
+    box-shadow: $shadow;
+    margin-bottom: 90px;
+}

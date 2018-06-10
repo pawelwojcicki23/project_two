@@ -1,0 +1,73 @@
+.bg3-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/tomato.png");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg3 {
+    background-color: rgb(112, 191, 255);
+}
+
+.bg3-image > h2 {
+    font-family: $font-raleway;
+    font-weight: bold;
+    color: white;
+    font-size: 90px;
+}
+
+.col > .services {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one,
+.two,
+.three,
+.four {
+    height: 100px;
+    width: 400px;
+    background-color: whitesmoke;
+    margin-bottom: 16px;
+    box-shadow: $shadow;
+}
+
+.blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+.one {
+    background-image: url("../images/cart.png");
+    @include block;
+}
+
+.two {
+    background-image: url("../images/quality.png");
+    @include block;
+}
+
+.three {
+    background-image: url("../images/world.png");
+    @include block;
+}
+
+.four {
+    background-image: url("../images/carrot.png");
+    @include block;
+}

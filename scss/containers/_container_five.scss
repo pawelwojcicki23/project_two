@@ -1,0 +1,52 @@
+.bg5-image {
+    background-image: url("../images/sub-bg.jpg");
+    min-height: 50vh;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.bg5 {
+    background-color: rgb(255, 255, 255);
+}
+
+.text-bg5 > h2 {
+    font-family: $font-raleway;
+    font-weight: bold;
+    color: rgb(38, 38, 38);
+    font-size: 40px;
+    margin-bottom: 32px;
+    padding-top: 64px;
+    margin-left: 16%;
+}
+
+.text-bg5 > p {
+    font-family: $font-raleway;
+    font-weight: lighter;
+    color: rgb(38, 38, 38);
+    font-size: 17px;
+    margin-bottom: 32px;
+    margin-left: 16%;
+}
+
+.subscribe {
+    border: 1px solid rgb(38, 38, 38);
+    padding: 16px 20px;
+    width: 761.5px;
+    margin-left: 16%;
+}
+
+.subs {
+    display: flex;
+    flex-flow: row;
+}
+
+.subutton {
+    font-family: $font-raleway;
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(150, 185, 44);
+    padding: 16px 24px;
+    border-style: none;
+    box-shadow: $shadow;
+}

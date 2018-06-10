@@ -1,0 +1,41 @@
+.bg1-image {
+    background-image: url("../images/header-bg.jpg");
+    min-height: 100vh;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.bg1 {
+    background-color: rgb(250, 250, 252);
+}
+
+.home {
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    padding-top: 300px;
+}
+
+.home > h2 {
+    font-family: $font-raleway;
+    font-weight: bold;
+    color: $main-text;
+    font-size: 60px;
+    margin-bottom: 32px;
+}
+
+.home > p {
+    font-family: $font-raleway;
+    font-weight: lighter;
+    color: $main-text;
+    font-size: 17px;
+}
+
+.getfree {
+    @include getfree;
+}
+
+h2 {
+    margin: 0;
+    font-size: 3em;
+}
